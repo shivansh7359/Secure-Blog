@@ -9,7 +9,7 @@ import { useRouter } from "next/navigation";
 export default function PaypalButton({setIsPaymentDialog}){
     
     const paypalOptions = {
-        'client-id': 'AWmFoEGFG91kxFlPwA1ox1vyX3A7BPjK5Fa5idP5rq8cfZy9gVxvwSRp5EI8_H_E8t2mtOhq3i4e6ujk',
+        'client-id': 'client_id',
         currency: 'USD'
     }
 
